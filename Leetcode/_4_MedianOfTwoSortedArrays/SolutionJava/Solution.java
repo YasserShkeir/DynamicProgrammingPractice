@@ -16,24 +16,20 @@ public class Solution {
             // Check if any pointer has reached the end
             if (i1 == nums1.length) {
                 while (i2 != nums2.length) {
-                    list.add(nums2[i2]);
-                    i2++;
+                    list.add(nums2[i2++]);
                 }
             } else if (i2 == nums2.length) {
                 while (i1 != nums1.length) {
-                    list.add(nums1[i1]);
-                    i1++;
+                    list.add(nums1[i1++]);
                 }
             } else {
                 // Check if number from nums1 at pointer 1 is less than nums2
                 if (nums1[i1] < nums2[i2]) {
                     // Add the number to the list
-                    list.add(nums1[i1]);
-                    i1++;
+                    list.add(nums1[i1++]);
                 } else {
                     // Add the number to the list
-                    list.add(nums2[i2]);
-                    i2++;
+                    list.add(nums2[i2++]);
                 }
             }
 
