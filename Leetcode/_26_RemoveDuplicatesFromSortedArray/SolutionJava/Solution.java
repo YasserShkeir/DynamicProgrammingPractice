@@ -1,7 +1,5 @@
 package Leetcode._26_RemoveDuplicatesFromSortedArray.SolutionJava;
 
-import java.util.Arrays;
-
 public class Solution {
     public static int removeDuplicates(int[] nums) {
         // Create an index for the unique elements
