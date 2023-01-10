@@ -1,23 +1,6 @@
 package Leetcode._67_AddBinary.SolutionJava;
 
-import java.math.BigInteger;
-
 public class Solution {
-    // Given two binary strings a and b, return their sum as a binary string.
-
-    // int ii = a.length() - 1, jj = b.length() - 1, cc = 0;
-    // StringBuilder sb = new StringBuilder();
-
-    // while(ii>=0||jj>=0||cc==1)
-    // {
-    // int aVal = (ii < 0) ? 0 : a.charAt(ii--) - '0';
-    // int bVal = (jj < 0) ? 0 : b.charAt(jj--) - '0';
-
-    // sb.insert(0, (char) ('0' + aVal ^ bVal ^ cc)); // Bitwise exclusive OR (^)
-    // cc = (aVal + bVal + cc) >> 1;
-    // }
-
-    // return sb.toString();
 
     public static String addBinary(String a, String b) {
 
